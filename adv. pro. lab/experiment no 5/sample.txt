@@ -1,0 +1,16 @@
+In this system we present a smart question paper generating system. 
+It is a web application made to allow teachers to generate question 
+papers with random but even questions to cover most chapters of subject 
+with Blooms level within seconds even before few minutes of exam. 
+In our system we allow administrator to input a set of questions w.r.t. 
+topics. We also allow admin to provide weight age, matched CO’s and blooms 
+levels complexity for each of these questions.											
+After this the questions are stored in database along with their weight 
+and difficulty level. Now on question paper generating time the admin just 
+has to select the percentage of content from each topic. On this selection 
+the system selects questions randomly in a way that their weightage makes 
+up for total marks and according to difficulty that teacher chooses the 
+questions are chosen based on their Blooms level. The questions are 
+categorized according to various blooms levels so that as soon admin chooses 
+no. of questions of each level (K1,K2,K3,K4,K5,K6) the system automatically 
+generates paper in pdf format.
